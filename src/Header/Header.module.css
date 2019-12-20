@@ -1,0 +1,9 @@
+.Header {
+    display: grid;
+
+    grid-template-columns: 1fr auto auto auto 1fr;
+
+    justify-items: center;
+
+    border-bottom: 1px solid #ccc;
+}

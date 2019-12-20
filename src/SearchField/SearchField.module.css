@@ -1,0 +1,26 @@
+.SearchField {
+    align-self: center;
+    position: relative;
+}
+
+.SearchField input {
+    display: inline-block;
+    align-self: center;
+    padding: 2px 5px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.SearchField.IsEmpty::after {
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 10px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/search-ico.png);
+    background-size: 15px 15px;
+}

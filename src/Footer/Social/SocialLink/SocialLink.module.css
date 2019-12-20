@@ -1,0 +1,10 @@
+.SocialLink img {
+    width: 35px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.SocialLink:last-child img
+{
+    margin-right: 0;
+}

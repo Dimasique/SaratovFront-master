@@ -1,0 +1,28 @@
+.TopSearch {
+    background-color: #a7ead5;
+    padding: 11px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    margin-bottom: 20px;
+    justify-items: center;
+}
+
+.TopSearch h1 {
+    margin-right: 350px;
+    display: inline-block;
+    color: #5f6368;
+    text-align: center;
+    padding: 7px 15px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.TopSearch input {
+    width: 450px;
+    padding: 5px 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
